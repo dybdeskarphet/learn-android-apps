@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time left:"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="330dp"
+        android:background="@drawable/miz"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="screen"
+        android:layout_height="330dp"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <ImageView
+            android:id="@+id/maya1"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya"/>
+
+        <ImageView
+            android:id="@+id/maya2"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+        <ImageView
+            android:id="@+id/maya3"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+        <ImageView
+            android:id="@+id/maya4"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+        <ImageView
+            android:id="@+id/maya5"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+        <ImageView
+            android:id="@+id/maya6"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+        <ImageView
+            android:id="@+id/maya7"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+        <ImageView
+            android:id="@+id/maya8"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+        <ImageView
+            android:id="@+id/maya9"
+            android:onClick="addScore"
+            android:visibility="invisible"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/maya" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"
+        android:textSize="30sp"/>
+
+</LinearLayout>
