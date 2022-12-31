@@ -1,5 +1,5 @@
 # Survivor Bird
-Survivor Bird is a game where you have to dodge the obstacles by flying between them. You can [download it from here](https://github.com/dybdeskarphet/SurvivorBird-LA/releases/download/v1.0.0/android-debug.apk).
+Survivor Bird is a game where you have to dodge the obstacles by flying between them.
 
 # Screenshots
 | gameplay                                                                   |
